@@ -1,0 +1,6 @@
+<div class="godmin-activestorage js-godmin-activestorage">
+  <% if preview && f.object.send(attachment).attached? %>
+    <%= image_tag main_app.url_for(f.object.send(attachment).variant(resize_to_limit: [600, 600])), class: "godmin-activestorage__image js-godmin-activestorage-preview" %>
+  <% end %>
+  <%= f.file_field attachment, class: "js-godmin-activestorage-field" %>
+</div>
