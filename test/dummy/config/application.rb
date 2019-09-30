@@ -1,8 +1,11 @@
-require_relative 'boot'
+# frozen_string_literal: true
 
-require 'rails/all'
+require_relative "boot"
+
+require "rails/all"
 
 Bundler.require(*Rails.groups)
+require "godmin"
 require "godmin/activestorage"
 
 module Dummy
@@ -16,4 +19,3 @@ module Dummy
     # the framework and any gems in your application.
   end
 end
-

@@ -7,3 +7,6 @@
 /spec/reports/
 /tmp/
 Gemfile.lock
+/test/dummy/tmp/*
+/test/dummy/storage/*
+/test/dummy/log/*
