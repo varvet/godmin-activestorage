@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Johan Halse"]
   spec.email         = ["johan.halse@varvet.com"]
 
-  spec.summary       = "A Godmin plugin for ActiveStorage instead of Refile"
-  spec.description   = "Handles uploads for you, using your app's ActiveStorage configuration."
+  spec.summary       = "A Godmin plugin for Active Storage instead of Refile"
+  spec.description   = "Handles uploads for you, using your app's Active Storage configuration."
   spec.homepage      = "https://github.com/varvet/godmin-activestorage"
   spec.license       = "MIT"
 
